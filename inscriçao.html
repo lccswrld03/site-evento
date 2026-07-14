@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html style="background-color: black;" lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página de inscrição para a seletiva da Batalha da Junção em Rio Grande, RS.">
+        <title>Inscrição para a Seletiva BDJ</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <nav>
+                <div style="text-align: center; border: 1px solid goldenrod; margin-top: 20px; padding: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <button type="button">
+                    <a style="text-decoration: none; color: black;" href="../Site_evento/index.html">Início</a>
+                </button>
+                <b style="color: white; margin: 0 5px;">|</b>
+                <button type="button">
+                    <a style="text-decoration: none; color: black;" href="../Site_evento/informaçoes.html">Informação</a>
+                </button>
+            </div>
+
+            <div style="text-align: center; color: white; margin-top: 20px; margin-bottom: 20px;">
+                <small>© 2026 Lucca Menestrino. Todos os direitos reservados.</small>
+            </div>
+        </nav>
+        </header>
+
+        <br><br><br><br>
+
+         <section id="formulario">
+            <div style="color: whitesmoke;">
+
+                <div style="font-family: 'Times New Roman', Times, serif; text-align: center; border: 10px solid black; border-bottom: 5px groove goldenrod; border-top: 5px groove goldenrod; color: whitesmoke; background-color: #113623; text-shadow: 1px 1px 1px black;">
+                    <h1 style="font-size: 180%;">FORMULÁRIO DE INSCRIÇÃO</h1> 
+                </div>
+
+                <br><br><br><br>
+
+                <form style="font-family: Arial, Helvetica, sans-serif; color: whitesmoke; max-width: 600px; margin: 0 auto;" method="get">
+
+                    <label for="nome">
+                    <p><b>1.</b> Nome completo:</p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <input type="text" id="nome" name="nome" placeholder="Primeiro nome" required style="flex: 1; min-width: 150px; padding: 5px;">
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Último nome" required style="flex: 1; min-width: 150px; padding: 5px;">
+                    </div>
+                    </label>
+
+                    <br><br>
+
+                    <label for="telefone">
+                    <p><b>2. </b> Telefone: <b>*</b></p>
+                    <input maxlength="11" type="text" id="telefone" name="telefone" placeholder="☏ (DDD)" required style="width: 100%; max-width: 200px; padding: 5px;">
+                    <br>
+                    <small><em>sem espaços</em></small>
+                    </label>
+
+                    <br><br>
+
+                    <label for="email">
+                    <p><b>3. </b> Email:</p>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required style="width: 100%; max-width: 300px; padding: 5px;">
+                    </label>
+
+                    <br><br><br>
+
+                    <div style="font-family: 'Courier New', Courier, monospace; color: whitesmoke;">
+                        <h2 style="font-size: 150%; border-bottom: 1px double goldenrod; text-shadow: 1px 1px 1px black;">MODO DE ENTRADA:</h2>
+                        
+                        <label style="font-family: Arial, Helvetica, sans-serif; display: block; margin-bottom: 10px;">
+                            <input type="radio" name="entrada" required> Agasalho
+                        </label>
+                        
+                        <label style="font-family: Arial, Helvetica, sans-serif; display: block;">
+                            <input type="radio" name="entrada" required> 1kg de alimento não perecível
+                        </label>
+                    </div>
+                    
+                    <br><br>
+
+                    <p style="font-family: 'Courier New', Courier, monospace; color: whitesmoke;"><b>4.</b> Se houver, descreve a tua relação com o rap.</p>
+                    <textarea maxlength="120" rows="4" placeholder="O rap pra mim é..." required style="width: 100%; box-sizing: border-box; padding: 10px;"></textarea>
+
+                    <br><br>
+
+                    <p style="font-family: 'Courier New', Courier, monospace; color: whitesmoke;"><b>5.</b> Quem ou o que te aproximou do rap?</p>
+                    <textarea maxlength="120" rows="4" placeholder="Eu conheci o rap..." required style="width: 100%; box-sizing: border-box; padding: 10px;"></textarea>
+
+                    <br><br><br>
+
+                    <div style="text-align: center;">
+                        <button type="submit" value="confirmar" style="padding: 10px 20px; font-size: 110%; cursor: pointer;">Confirmar</button>
+                    </div>
+                </form>
+            </div> 
+        </section>
+
+        <br><br><br><br> <br><br><br><br> <br><br><br><br>
+
+        <footer style="border: 1px solid goldenrod;">
+        <section id="contato">
+            <div style="text-align: center;">
+            <a style="text-decoration: none;" href="https://www.instagram.com/" target="_blank"><img src="img/instagramlogo.png" width="40" height="auto" alt="Logo do Instagram"></a>
+            <a style="text-decoration: none;" href="https://www.youtube.com/" target="_blank"><img src="img/youtube-logo.webp" width="40" height="auto" alt="Logo do Youtube"></a>
+            </div>
+        </section>
+        </footer>
+    </body>
+</html>
