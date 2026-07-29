@@ -14,16 +14,14 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a {
+.a {
     text-decoration: none; 
     color: white;
 }
 
 
 .b {
-    color: goldenrod; 
-    padding-top: 1px; 
-    margin: 0 5px;
+    color: goldenrod;
 }
 
 header {
