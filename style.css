@@ -1,0 +1,199 @@
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav {
+    border: 2px solid goldenrod; 
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none; 
+    color: goldenrod;
+}
+
+b.b1 {
+    color: white; 
+    padding-top: 1px; 
+    margin: 0 5px;
+}
+
+b.b2 {
+    
+    color: white; 
+    margin: 0 5px;
+}
+
+header {
+    text-align: center; 
+    padding-top: 20px;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    
+}
+
+div.img2 {
+    border: 2px inset goldenrod;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+small {
+      
+     color: white; 
+}
+
+.card {
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+
+}
+
+h1 {
+    padding: 10px;
+    margin: 0 auto;
+    color: whitesmoke; 
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+}
+
+h2 {
+    padding: 10px;
+    margin: 0 auto; 
+    color: whitesmoke; 
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 0;
+    background-color: #113623;
+    font-family: 'Times New Roman', Times, serif; 
+    border: 10px solid black; 
+    border-bottom: 5px groove goldenrod; 
+    border-top: 5px groove goldenrod;
+    font-size: 200%;
+
+}
+
+h3 {
+   font-family: 'Times New Roman', Times, serif;
+   width: fit-content;
+   border-radius: 5px;
+   margin: 0 auto;
+   color: whitesmoke;    
+   text-shadow: 1px 1px 1px black;       
+   text-align: center;
+   border-radius: 6px;
+   background-color: #0e1581;
+   font-size: 150%;
+}
+
+h4 {
+    padding: 10px;
+font-family: 'Times New Roman', Times, serif; 
+font-size: 200%;
+color: whitesmoke;
+    
+}
+
+#sobre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: whitesmoke; 
+    padding: 15px;
+}
+
+
+
+#formulario {
+    margin: 0 auto; 
+    max-width: 300px; 
+    background-color: #113623; 
+    border: 2px solid goldenrod; 
+    color: whitesmoke; 
+    padding: 10px; 
+    text-align: center;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace; 
+    color: whitesmoke; 
+    text-shadow: 1px 1px 1px black; 
+    padding-bottom: 5px;
+}
+
+ul {
+    color: whitesmoke;
+    border: 4px inset goldenrod;
+    border-radius: 6px;
+    padding: 20px 40px; 
+    max-width: 400px; 
+    margin: 20px auto; 
+    list-style-type: square; 
+    background-color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    width: fit-content;
+}
+
+.destaque {
+    color: goldenrod;
+}
+
+.descricao {
+    color: gray;
+}
+
+.patrocinadores {
+    font-family: 'Times New Roman', Times, serif; 
+    border: 10px solid black;
+    width: fit-content; 
+    margin: 0 auto;
+    padding-bottom: 2px;
+ 
+}
+
+.card {
+    background-color: #2E2929;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+code {
+    color: whitesmoke;
+    font-size: 150%;
+}
+
+.titulo {
+    color: whitesmoke;
+    font-size: 200%;
+}
+
+footer {
+    text-align: left;
+    border: 2px solid goldenrod;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.img2 {
+    margin-right: 2px;
+}
+
+.contato {
+    color: whitesmoke;
+}
+
+
