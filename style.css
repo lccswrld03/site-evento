@@ -15,18 +15,18 @@ nav {
 
 a {
     text-decoration: none; 
-    color: goldenrod;
+    color: white;
 }
 
 b.b1 {
-    color: white; 
+    color: goldenrod; 
     padding-top: 1px; 
     margin: 0 5px;
 }
 
 b.b2 {
     
-    color: white; 
+    color: goldenrod; 
     margin: 0 5px;
 }
 
