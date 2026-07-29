@@ -20,15 +20,9 @@ a {
 }
 
 
-b.b1 {
+.b {
     color: goldenrod; 
     padding-top: 1px; 
-    margin: 0 5px;
-}
-
-b.b2 {
-    
-    color: goldenrod; 
     margin: 0 5px;
 }
 
