@@ -21,7 +21,9 @@ a {
 
 
 b {
-    color: goldenrod;
+    color: goldenrod; 
+    padding-top: 1px; 
+    margin: 0 5px;
 }
 
 header {
@@ -92,10 +94,10 @@ h3 {
 }
 
 h4 {
-  padding: 10px;
-  font-family: 'Times New Roman', Times, serif; 
-  font-size: 200%;
-  color: whitesmoke;
+    padding: 10px;
+font-family: 'Times New Roman', Times, serif; 
+font-size: 200%;
+color: whitesmoke;
     
 }
 
